@@ -1,0 +1,19 @@
+{
+  "name": "royality_resize_images",
+  "version": "1.0.0",
+  "description": "Bulk resize & crop images from any specified source directory to any desired output directory using Sharp. Simply modify the params to src and dest directories, with and height as well as crop/resize options for Sharp.",
+  "main": "resize.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node resize.js"
+  },
+  "author": { 
+  	"name" : "Matt Royal",
+  	"email" : "code@mattroyal.co.za",
+  	"url" : "https://mattroyal.co.za/"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "sharp": "^0.21.0"
+  }
+}
